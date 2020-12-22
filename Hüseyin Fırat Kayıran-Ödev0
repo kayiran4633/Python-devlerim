@@ -1,0 +1,7 @@
+isim = 'Hüseyin Fırat'
+Soyad='Kayıran'
+Yaş=35
+Memleket=Mersin
+Meslek=Makine mühendisliği
+print(f'Onun adı {isim} soyadı {Soyad}. O {yas} yaşında ve Memleketi{Memleket} olup Mesleği{Meslek} dir')
+'Onun adı Hüseyin Fırat soyadı Kayıran. O 35 yaşında ve Memleketi Mersin olup Mesleği Makine Mühendisi dir .'
