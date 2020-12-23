@@ -1,1 +1,1 @@
-# Python-devlerim
+# Python-Odevlerim
