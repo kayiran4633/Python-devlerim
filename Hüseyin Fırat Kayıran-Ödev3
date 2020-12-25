@@ -1,0 +1,29 @@
+
+
+char11 = {"ad": "Burak", "power": 100, "weapon": "sword", "hp": 100}
+
+char22 = {"ad": "Ahmet", "power": 60, "weapon": "sword", "can": 100}
+
+def attack (vuran: char11, vurulan: char22):
+    Kalan = vuran["power"]
+    vurulan["hp"] = vurulan["hp"] - Kalan
+
+def attack2 (vurulan: char11, vuran: char22):
+    Kalan = vuran["power"]
+    vurulan["hp"] = vurulan["hp"] - Kalan
+
+name = str(input("Please enter your name: "))
+print(f"Welcome: ", name,"Game is starting now: ")
+
+print("ilk Karakterin Adı: {}".format(char11["ad"]))
+print("ilk Karakterin Gücü: {}".format(char11["power"]))
+print("ikinci Karakterin Adı: {}".format(char22["ad"]))
+print("ikinci Karakterin Gücü: {}".format(char22["power"]))
+
+attack(char22,char11)
+attack2(char11, char22)
+
+print("First and second chameteracter attacked each other: ")
+print("First character hp is:", char11["hp"])
+print("Second character hp is: ", char22["can"])
+quit
